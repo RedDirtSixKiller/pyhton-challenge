@@ -21,10 +21,11 @@ for c in cands:
         cand_counts[c] = cand_counts[c] + 1
     except KeyError:
         cand_counts[c] = 1
-pbar = "---------------"
+pbar = "-------------------------"
 max_per = 0
-print(pbar)
+
 print("Election Results")
+print(pbar)
 print("Total Votes: " + str(total_votes))
 print(pbar)
 for c in cand_counts:
