@@ -17,7 +17,7 @@ with open(bank_csv, newline='') as budget_data:
     csv_reader = csv.reader(budget_data, delimiter=",")
     csv_header = next(csv_reader)
     #how do I reference the current row, need to fix this
-    #main2.py has the alternate attempt
+    
     prev_line = [0,867884]
 
     for row in csv_reader:
